@@ -1,4 +1,4 @@
-export default [
+ const Data = [
     {
         image : 'https://images.unsplash.com/photo-1613769049987-b31b641f25b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGJyZWFrZmFzdHxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60',
         title: "Sun's Out, BOGO's Out",
@@ -15,4 +15,6 @@ export default [
         title: 'We Deliver Desserts',
         text: 'Tasty Treats'
     },
+
 ];
+export default Data;
