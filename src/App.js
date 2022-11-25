@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Data from './Data/Data';
 import { useState } from "react";
 import Food from "./components/Food";
+import Category from "./components/Category";
+import Footer from "./components/Footer";
 
 function App() {
   const [infos, setInfos] = useState(Data)
@@ -14,7 +16,8 @@ function App() {
     <Hero />
     <HeadlineCard infos={infos} setInfos={setInfos} />
     <Food />
-  
+    <Category />
+    <Footer />
     </div>
   );
 }
