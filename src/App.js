@@ -11,7 +11,7 @@ function App() {
     <div >
     <Navbar />
     <Hero />
-    <HeadlineCard infos={infos} />
+    <HeadlineCard infos={infos} setInfos={setInfos}/>
     </div>
   );
 }
